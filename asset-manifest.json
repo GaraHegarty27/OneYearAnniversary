@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/OneYearAnniversary/static/css/main.205c33bf.css",
+    "main.js": "/OneYearAnniversary/static/js/main.4e9d9bfc.js",
+    "static/js/453.afe6e041.chunk.js": "/OneYearAnniversary/static/js/453.afe6e041.chunk.js",
+    "static/media/WorldMap.png": "/OneYearAnniversary/static/media/WorldMap.89209354852a0afcd3cc.png",
+    "static/media/BrandLogo.png": "/OneYearAnniversary/static/media/BrandLogo.f384491051760ac80aa6.png",
+    "static/media/EthicalMining.jpg": "/OneYearAnniversary/static/media/EthicalMining.c2e427f798578879ccee.jpg",
+    "static/media/GreenForest.jpeg": "/OneYearAnniversary/static/media/GreenForest.6eda8c29dc84ce7a7993.jpeg",
+    "index.html": "/OneYearAnniversary/index.html",
+    "main.205c33bf.css.map": "/OneYearAnniversary/static/css/main.205c33bf.css.map",
+    "main.4e9d9bfc.js.map": "/OneYearAnniversary/static/js/main.4e9d9bfc.js.map",
+    "453.afe6e041.chunk.js.map": "/OneYearAnniversary/static/js/453.afe6e041.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.205c33bf.css",
+    "static/js/main.4e9d9bfc.js"
+  ]
+}

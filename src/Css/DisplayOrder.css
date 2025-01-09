@@ -1,0 +1,35 @@
+.display-card {
+    background-color: #EAE7DC;
+    border: 5px solid #2F3C7E;
+    border-radius: 10px;
+ }
+ 
+ 
+ .display-body {
+   background-color: #EAE7DC;
+   border: none;
+  }
+
+ 
+ .display-header {
+    background-color: #EAE7DC;
+    border-color:#735DA5
+ }
+ 
+
+ .display-title {
+    color: #735DA5;
+    text-align: center;
+ }
+ 
+ 
+ .display-strong {
+    color: #735DA5;
+    font-weight: bold;
+ }
+
+ 
+ .display-span {
+    color: #735DA5;
+    font-weight: lighter;
+ }

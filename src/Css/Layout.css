@@ -1,0 +1,39 @@
+.title {
+    color: #735DA5;
+    text-align: center;
+    padding: 20px 0px 0px;
+ }
+ 
+ 
+ 
+ .nav-bar {
+    background-color: #2F3C7E;
+    padding: 4px;
+ }
+ 
+ 
+ .main-content {
+   padding: 1rem 0;
+}
+
+
+ .nav-link-display {
+    border: 2px solid #2F3C7E;
+    
+ }
+ 
+ 
+ .nav-link-text {
+    color: #735DA5;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+
+ }
+
+
+ .nav-link-text:hover,
+ .nav-link-text.active {
+    color: #EAE7DC;
+    background-color: #2F3C7E;
+ }

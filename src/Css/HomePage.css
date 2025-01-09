@@ -1,0 +1,33 @@
+.home-card {
+    background-color: #EAE7DC;
+    border: 5px solid #2F3C7E;
+    border-radius: 10px;
+}
+ 
+ 
+ 
+ .home-header {
+    background-color: #EAE7DC;
+    margin: 10px;
+    border-color:#735DA5
+ }
+ 
+ 
+ 
+ .home-title {
+    color: #735DA5;
+    text-align: center;
+ }
+ 
+ 
+ 
+ .home-body {
+    background-color: #EAE7DC;
+ }
+ 
+
+ 
+ .home-text {
+    color: #735DA5;
+    text-align: center;
+ }

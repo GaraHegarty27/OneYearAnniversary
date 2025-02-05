@@ -12,74 +12,96 @@ const Layout = () => {
   const getClassName = ({ isActive }) => 
     isActive ? "nav-link-text active" : "nav-link-text";
 
-  return (
 
+  return (
     <Container fluid>
       <Row className="justify-content-center">
-        <Card style={{ maxWidth: "120rem", backgroundColor: "#D3C5E5", border: "2px solid #D3C5E5",}}>
+        <Card
+          style={{
+            maxWidth: "120rem",
+            backgroundColor: "#B22222",
+            border: "10px solid #B22222",
+            borderRadius: "0",
+          }}
+        >
 
-          <Header />
-          <h1 className="title">EcoBurn Fuels</h1>
+          <nav className="nav-bar">
+            <div className="table-responsive">
+              <table className="table" style={{ margin: 0 }}>
+                <thead>
+                  <tr>
+                    <th
+                      className="nav-link-display"
+                      style={{ backgroundColor: "#F5DEB3" }}
+                    >
+                      <NavLink to="/homepage" className="nav-link-text">
+                        Home Page
+                      </NavLink>
+                    </th>
+                    <th
+                      className="nav-link-display"
+                      style={{ backgroundColor: "#F5DEB3" }}
+                    >
+                      <NavLink to="/loveletter" className="nav-link-text">
+                        What Manya Means to me
+                      </NavLink>
+                    </th>
+
+                    <th
+                      className="nav-link-display"
+                      style={{ backgroundColor: "#F5DEB3" }}
+                    >
+                      <NavLink to="/facts" className="nav-link-text">
+                        Facts
+                      </NavLink>
+                    </th>
+
+                    <th
+                      className="nav-link-display"
+                      style={{ backgroundColor: "#F5DEB3" }}
+                    >
+                      <NavLink to="/photos" className="nav-link-text">
+                        Photos
+                      </NavLink>
+                    </th>
+
+                    <th
+                      className="nav-link-display"
+                      style={{ backgroundColor: "#F5DEB3" }}
+                    >
+                      <NavLink to="/milestonesbucketlist" className="nav-link-text">
+                        Milestones and BucketList
+                      </NavLink>
+                    </th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </nav>
 
           <Container>
             <Card.Body>
 
-            <nav className="nav-bar">
-                           <div className="table-responsive">
-                               <table className="table" style={{ margin: 0 }}>
+              <Header />
+              <h1 className="title">Manya and Gara</h1>
 
-                                   <thead>
-                                   <tr>
-                                       <th
-                                          className="nav-link-display" style={{ backgroundColor: '#EAE7DC'}}>
-                                          <NavLink to="/homepage" className="nav-link-text">Home Page</NavLink></th>
-                                       <th 
-                                          className="nav-link-display" style={{ backgroundColor: '#EAE7DC'}}>
-                                          <NavLink to="/aboutus" className="nav-link-text">About Us</NavLink>
-                                       </th>
+              <main className="main-content">
+                <Outlet />
+              </main>
+              
+            </Card.Body>
+          </Container>
 
-                                       <th
-                                          className="nav-link-display" style={{ backgroundColor: '#EAE7DC'}}>
-                                          <NavLink to="/pricelist" className="nav-link-text">Price List</NavLink>
-                                       </th>
-
-                                       <th
-                                          className="nav-link-display" style={{ backgroundColor: '#EAE7DC'}}>
-                                          <NavLink to="/orderpage" className="nav-link-text">Order Page</NavLink>
-                                       </th>
-
-                                       <th
-                                          className="nav-link-display" style={{ backgroundColor: '#EAE7DC'}}>
-                                          <NavLink to="/displayorder" className="nav-link-text">Display Order</NavLink>
-                                       </th>
-                                   </tr>
-                                   </thead>
-
-                               </table>
-                           </div>
-                       </nav>
-
-
-                       <main className="main-content">
-                           <Outlet />
-                       </main>
-
-
-                    </Card.Body>
-                    </Container>
-
-
-                   <Card.Footer>
-                       <Row>
-                           <Footer />
-                       </Row>
-                   </Card.Footer>
-
-
-               </Card>
-           </Row>
-        </Container>
-   );
+          <Card.Footer>
+            <Row>
+              <Footer />
+            </Row>
+          </Card.Footer>
+          
+        </Card>
+      </Row>
+    </Container>
+  );
 
 };
 

@@ -12,18 +12,15 @@ function HomePage() {
 
            <Card.Header className="home-header">
                <h3 className="home-title">
-                   <strong><u>Welcome To EcoBurn Fuels</u></strong>
+                   <strong><u>Welcome To The Life Of Manya and Gara</u></strong>
                </h3>
            </Card.Header>
 
            <Card.Body className="home-body">
                <h4 className="home-text">
-                   EcoBurn Fuels specializes in providing fuel options that create less harmful
-                   emissions. We offer a variety of fuel options that are not only cost-effective but
-                   also more environmentally friendly.
-                   We are committed to reducing our carbon footprint and helping our customers do the
-                   same. We cater to both private and industrial use. Contact us today to learn more
-                   about our products and services.
+                   This website is dedicated to the life of Manya and Gara. Here you will find photos, 
+                   milestones, goals, facts and anything else worth keeping memory of on our adventure 
+                   through life together.
                </h4>
            </Card.Body>
 

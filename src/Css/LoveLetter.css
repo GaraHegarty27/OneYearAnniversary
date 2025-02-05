@@ -1,0 +1,51 @@
+.aboutus-card {
+    background-color: #F5DEB3;
+    border: 5px solid #333333;
+    border-radius: 10px;
+ }
+
+
+ 
+ .aboutus-header {
+    background-color: #F5DEB3;
+    margin: 10px;
+    border-color:#333333
+ }
+
+ 
+
+ .aboutus-title {
+    color: #333333;
+    text-align: center;
+ }
+ 
+
+ 
+ .aboutus-table {
+    margin: 10px;
+    border: 5px solid #333333;
+ }
+
+ 
+
+ .aboutus-footer {
+    background-color: #F5DEB3;
+    border: 2px solid #333333;
+ }
+ 
+ 
+
+ .aboutus-footer-text {
+    color: #735DA5;
+    text-align: center;
+ }
+
+.carousel-image {
+   border: 10px solid #333333;
+   max-height: 500px; /* Set a maximum height for the image */
+   max-width: 100%; /* Ensure the image does not exceed the width of its container */
+   width: auto; /* Maintain the aspect ratio */
+   height: auto; /* Maintain the aspect ratio */
+   display: block; /* Ensure the image is displayed as a block element */
+   margin: 0 auto; /* Center the image horizontally */
+ }

@@ -1,4 +1,6 @@
 .footer-row {
-    color: #735DA5;
-    text-align: center;
+  -webkit-text-stroke: 1.5px #333333; /* Creates a clean white outline */
+  color: #F5DEB3; /* Sets the inner text color */
+  text-align: center;
+  font-size: 1.5rem;
  }

@@ -1,5 +1,6 @@
 .title {
-    color: #735DA5;
+    -webkit-text-stroke: 1.5px #333333; /* Creates a clean white outline */
+    color: #F5DEB3; /* Sets the inner text color */
     text-align: center;
     padding: 20px 0px 0px;
  }
@@ -7,24 +8,26 @@
  
  
  .nav-bar {
-    background-color: #2F3C7E;
+    background-color: #333333;
     padding: 4px;
  }
  
- 
+
  .main-content {
    padding: 1rem 0;
 }
 
 
  .nav-link-display {
-    border: 2px solid #2F3C7E;
-    
+    border: 2px solid #333333;
+    background-color: #F5DEB3;
+    width: 200px; /* Set a fixed width for each nav link */
+    text-align: center; /* Center the text */
  }
  
  
  .nav-link-text {
-    color: #735DA5;
+    color: #333333;
     display: block;
     padding: 10px 0px 10px 0px;
     border-radius: 10px;
@@ -34,6 +37,6 @@
 
  .nav-link-text:hover,
  .nav-link-text.active {
-    color: #EAE7DC;
-    background-color: #2F3C7E;
+    color: #F5DEB3;
+    background-color: #333333;
  }

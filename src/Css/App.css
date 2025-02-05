@@ -30,6 +30,10 @@
  }
  
 
+ .Card {
+  background-color: #D3C5E5 !important; /* Use !important to override other styles */
+}
+
  
  .App-link {
   color: #61dafb;
@@ -47,3 +51,62 @@
 
  }
  
+ .login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #B22222;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  -webkit-text-stroke: 1.5px #333333; /* Creates a clean white outline */
+  color: #F5DEB3; /* Sets the inner text color */
+  font-weight: bold; /* Optional: Enhances the text for better visibility */
+}
+
+.login-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #333333;
+  border-radius: 4px;
+  width: 200px;
+  outline: none; /* Prevents the default focus outline */
+  background-color: #F5DEB3;
+}
+
+.login-container input::placeholder {
+  color: #333333; /* Change placeholder color */
+}
+
+.login-container input:focus {
+  border: 3px solid #333333; /* Keeps the border consistent when focused */
+}
+
+.login-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333333;
+  color: #F5DEB3;
+  cursor: pointer;
+}
+
+.login-container button:focus {
+  outline: none; /* Prevents the default focus outline */
+  background-color: #333333; /* Ensures no visual change when focused */
+}
+
+.login-container button:hover {
+  background-color: #333333;
+}
+
+.error-message {
+  color: #333333;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

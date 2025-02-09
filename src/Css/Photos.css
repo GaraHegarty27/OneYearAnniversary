@@ -1,28 +1,48 @@
 .photos-card {
-   margin: 20px;
-   padding: 20px;
-   background-color: #333333;
-   border: 5px solid #333333;
-   border-radius: 10px;
- }
- 
- .photos-grid {
-   display: grid;
-   grid-template-columns: repeat(10, 1fr); /* Create 10 columns */
-   grid-template-rows: repeat(10, 1fr); /* Create 10 rows */
-   gap: 10px; /* Add space between grid items */
- }
- 
- .photo-item {
-   width: 100px; /* Set a fixed width for each photo item */
-   height: 100px; /* Set a fixed height for each photo item */
-   overflow: hidden; /* Hide overflow to maintain the fixed size */
- }
- 
- .photo-img {
-   width: 100%;
-   height: 100%;
-   object-fit: cover; /* Ensure the image covers the container */
-   border-radius: 5px; /* Optional: Add rounded corners */
- }
- 
+  margin: 20px;
+  padding: 20px;
+  background-color: #333333;
+  border: 5px solid #333333;
+  border-radius: 10px;
+}
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Default for larger screens */
+  gap: 10px; /* Add space between grid items */
+}
+
+.photo-item {
+  width: 100%; /* Use full width within grid item */
+  height: 100px; /* Set a fixed height for each photo item */
+  overflow: hidden; /* Hide overflow to maintain the fixed size */
+}
+
+.photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* Media query for smaller screens like mobile */
+@media (max-width: 768px) {
+  .photos-grid {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on small screens */
+  }
+
+  .photo-item {
+    height: 150px; /* Increase height of photos on mobile for better visibility */
+  }
+}
+
+/* Media query for very small screens (phones in portrait mode) */
+@media (max-width: 480px) {
+  .photos-grid {
+    grid-template-columns: 1fr; /* 1 column for even smaller screens */
+  }
+
+  .photo-item {
+    height: 200px; /* Make photo items taller for portrait mode */
+  }
+}

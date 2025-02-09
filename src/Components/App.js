@@ -15,23 +15,19 @@ function App() {
 
   const correctPassword = "Punjab16Donegal27";
 
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
+  const handlePasswordChange = (e) => setPassword(e.target.value);
 
   const handleLogin = () => {
     if (password === correctPassword) {
       setIsAuthenticated(true);
-      setErrorMessage(""); // Clear any previous error message
+      setErrorMessage(""); // Clear previous error
     } else {
       setErrorMessage("Incorrect password. Please try again.");
     }
   };
 
   const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
-      handleLogin();
-    }
+    if (e.key === 'Enter') handleLogin();
   };
 
   if (!isAuthenticated) {

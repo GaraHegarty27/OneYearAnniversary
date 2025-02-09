@@ -1,112 +1,169 @@
+/* General Styles */
 .App {
   text-align: center;
- }
- 
+}
 
- 
- .App-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
- }
- 
+  animation: App-logo-spin 20s linear infinite;
+}
 
-
- @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
- }
- 
-
- 
- .App-header {
-  background-color: #D3C5E5;
+.App-header {
+  background-color: #B22222;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
- }
- 
-
- .Card {
-  background-color: #D3C5E5 !important; /* Use !important to override other styles */
+  padding: 20px;
 }
 
- 
- .App-link {
-  color: #61dafb;
- }
- 
- 
- 
- @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg); 
-  } 
+/* Card Background */
+.Card {
+  background-color: #B22222 !important;
+}
 
- }
- 
- .login-container {
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Login Container */
+.login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   background-color: #B22222;
+  padding: 20px;
+  text-align: center;
 }
 
 .login-container h1 {
   margin-bottom: 20px;
-  -webkit-text-stroke: 1.5px #333333; /* Creates a clean white outline */
-  color: #F5DEB3; /* Sets the inner text color */
-  font-weight: bold; /* Optional: Enhances the text for better visibility */
+  -webkit-text-stroke: 1.5px #333;
+  color: #F5DEB3;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
+/* Adjust input width and padding for mobile */
 .login-container input {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 3px solid #333333;
-  border-radius: 4px;
-  width: 200px;
-  outline: none; /* Prevents the default focus outline */
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 3px solid #333;
+  border-radius: 6px;
+  width: 80%;
+  max-width: 300px;
   background-color: #F5DEB3;
+  font-size: 1rem;
 }
 
 .login-container input::placeholder {
-  color: #333333; /* Change placeholder color */
-}
-
-.login-container input:focus {
-  border: 3px solid #333333; /* Keeps the border consistent when focused */
+  color: #333;
 }
 
 .login-container button {
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
-  border-radius: 4px;
-  background-color: #333333;
+  border-radius: 6px;
+  background-color: #333;
   color: #F5DEB3;
   cursor: pointer;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 200px;
 }
 
-.login-container button:focus {
-  outline: none; /* Prevents the default focus outline */
-  background-color: #333333; /* Ensures no visual change when focused */
-}
-
+/* Hover and focus states */
 .login-container button:hover {
-  background-color: #333333;
+  background-color: #222;
 }
 
 .error-message {
-  color: #333333;
+  color: #333;
   margin-top: 10px;
   text-align: center;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  /* Tablet/large mobile screens */
+  .App-header {
+    padding: 15px;
+  }
+
+  .login-container h1 {
+    font-size: 1.75rem;
+  }
+
+  .login-container input {
+    font-size: 1rem;
+    padding: 12px;
+    width: 90%;
+  }
+
+  .login-container button {
+    font-size: 1rem;
+  }
+
+  .error-message {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobile screens */
+  .App-header {
+    padding: 10px;
+  }
+
+  .login-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .login-container input {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .login-container button {
+    font-size: 0.9rem;
+  }
+
+  .error-message {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Smaller phone screens */
+  .login-container h1 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+
+  .login-container input {
+    font-size: 0.85rem;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .login-container button {
+    font-size: 0.85rem;
+    padding: 10px 20px;
+  }
+
+  .error-message {
+    font-size: 0.9rem;
+  }
 }

@@ -1,31 +1,19 @@
 .home-card {
-    background-color: #F5DEB3;
-    border: 5px solid #333333;
-    border-radius: 10px;
-}
+   background-color: #F5DEB3;
+   border: 5px solid #333333;
+   border-radius: 10px;
+ }
  
- 
+ .home-header, .home-body {
+   background-color: #F5DEB3;
+ }
  
  .home-header {
-    background-color: #F5DEB3;
-    margin: 10px;
-    border-color:#333333
+   margin: 10px;
+   border-color: #333333;
  }
  
- 
- 
- .home-title {
-    color: #333333;
-    text-align: center;
- }
- 
- 
- 
- .home-body {
-    background-color: #F5DEB3;
- }
-
- .home-text {
-    color: #333333;
-    text-align: center;
+ .home-title, .home-text {
+   color: #333333;
+   text-align: center;
  }

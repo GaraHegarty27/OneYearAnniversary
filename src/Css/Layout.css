@@ -1,42 +1,56 @@
-.title {
-    -webkit-text-stroke: 1.5px #333333; /* Creates a clean white outline */
-    color: #F5DEB3; /* Sets the inner text color */
-    text-align: center;
-    padding: 20px 0px 0px;
+:root {
+   --primary-color: #B22222;
+   --secondary-color: #333333;
+   --text-color: #F5DEB3;
  }
  
+ /* Ensuring correct styles for the card */
+ .card.layout-card {
+   max-width: 120rem;
+   background-color: var(--primary-color) !important;
+   border: 10px solid var(--primary-color) !important;
+   border-radius: 0 !important;
+   color: white; /* Ensuring text is visible */
+ }
  
+ /* Title Styling */
+ .title {
+   -webkit-text-stroke: 1.5px var(--secondary-color);
+   color: var(--text-color);
+   text-align: center;
+   padding-top: 20px;
+ }
  
+ /* Navigation Bar */
  .nav-bar {
-    background-color: #333333;
-    padding: 4px;
+   background-color: var(--secondary-color);
+   padding: 4px;
  }
  
-
- .main-content {
-   padding: 1rem 0;
-}
-
-
+ /* Navigation Links */
  .nav-link-display {
-    border: 2px solid #333333;
-    background-color: #F5DEB3;
-    width: 200px; /* Set a fixed width for each nav link */
-    text-align: center; /* Center the text */
+   border: 2px solid var(--secondary-color);
+   background-color: var(--text-color);
+   width: 200px;
+   text-align: center;
  }
- 
  
  .nav-link-text {
-    color: #333333;
-    display: block;
-    padding: 10px 0px 10px 0px;
-    border-radius: 10px;
-
+   color: var(--secondary-color);
+   display: block;
+   padding: 10px 0;
+   border-radius: 10px;
+   transition: background-color 0.3s, color 0.3s;
  }
-
-
+ 
  .nav-link-text:hover,
  .nav-link-text.active {
-    color: #F5DEB3;
-    background-color: #333333;
+   color: var(--text-color);
+   background-color: var(--secondary-color);
  }
+ 
+ /* Main Content */
+ .main-content {
+   padding: 1rem 0;
+ }
+ 

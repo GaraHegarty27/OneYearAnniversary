@@ -9,24 +9,24 @@ function MilestonesBucketlist() {
 
   // Load the state from local storage when the component mounts
   useEffect(() => {
-    try {
-      const storedCompletedItems = localStorage.getItem("completedItems");
-      if (storedCompletedItems) {
+    const storedCompletedItems = localStorage.getItem("completedItems");
+    if (storedCompletedItems) {
+      try {
         setCompletedItems(JSON.parse(storedCompletedItems));
+      } catch (error) {
+        console.error("Error loading from localStorage", error);
       }
-    } catch (error) {
-      console.error("Error loading from localStorage", error);
     }
   }, []);
 
   // Save the state to local storage whenever it changes
   useEffect(() => {
-    try {
-      if (completedItems.length > 0) { // Prevent saving empty arrays unnecessarily
+    if (completedItems.length) { // Prevent saving empty arrays unnecessarily
+      try {
         localStorage.setItem("completedItems", JSON.stringify(completedItems));
+      } catch (error) {
+        console.error("Error saving to localStorage", error);
       }
-    } catch (error) {
-      console.error("Error saving to localStorage", error);
     }
   }, [completedItems]);
 
@@ -92,13 +92,6 @@ function MilestonesBucketlist() {
                 key={index}
                 className={completedItems.includes(index) ? "completed" : ""}
                 onClick={() => handleItemClick(index)}
-                style={{
-                  color: "#333333",
-                  backgroundColor: "#F5DEB3",
-                  padding: "15px",
-                  border: "2.5px solid #333333",
-                  cursor: "pointer",
-                }}
               >
                 <td colSpan="2">{item}</td>
               </tr>

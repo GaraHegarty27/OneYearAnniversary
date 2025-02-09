@@ -1,60 +1,51 @@
 .facts-card {
-    background-color: #F5DEB3;
-    border: 5px solid #333333;
-    border-radius: 10px;
+   background-color: #F5DEB3;
+   border: 5px solid #333333;
+   border-radius: 10px;
  }
  
  .facts-header {
-    margin: 10px;
-    background-color: #F5DEB3;
-    border-color:#333333
+   margin: 10px;
+   background-color: #F5DEB3;
+   border-color: #333333;
  }
  
- .facts-table{
-      margin: 10px;
-      background-color: #F5DEB3;
-      border: 5px solid #333333;
+ .facts-table {
+   margin: 10px;
+   background-color: #F5DEB3;
+   border: 5px solid #333333;
  }
  
  .facts-header-h3 {
-    color: #333333;
-    text-align: center;
+   color: #333333;
+   text-align: center;
  }
  
- 
- 
- .facts-header-h5 {
-    color: #333333;
-    text-align: center;
+ /* Table row with background color */
+ .facts-table tr {
+   background-color: #F5DEB3;
+   color: #333333;
+   padding: 15px;
+   border: 2.5px solid #333333;
  }
  
- 
- 
- .table-custom {
-    margin: 10px;
-    border: 2px solid #333333;
+ /* Table cell styling for consistency */
+ .facts-table td {
+   padding: 15px;
+   border: 2.5px solid #333333;
+   color: #333333;
+   background-color: #F5DEB3;
+   text-align: center;
+   font-size: 1.1rem;
+   font-weight: 600; /* Make the writing a bit thicker */
  }
  
- 
- 
- .table-th {
-    color: #735DA5;
-    background-color: #F5DEB3;
- }
- 
- 
- 
- .table-td {
-    color: #735DA5;
-    background-color: #F5DEB3;
- }
-
-
  .carousel-indicators {
-    display: none;
-}
-
-
- .carousel-control-prev, .carousel-control-next {
-    display: none;
-}
+   display: none;
+ }
+ 
+ .carousel-control-prev,
+ .carousel-control-next {
+   display: none;
+ }
+ 

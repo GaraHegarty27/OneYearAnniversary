@@ -1,35 +1,36 @@
 .milestones-card {
-    background-color: #F5DEB3;
-    border: 5px solid #333333;
-    border-radius: 10px;
-  }
-  
-  .milestones-header {
-    background-color: #F5DEB3;
-    margin: 10px;
-    border-bottom: 1px solid #333333;
-  }
-  
-  .milestones-header-h3 {
-    color: #333333;
-    text-align: center;
-  }
-  
-  .milestones-table {
-    margin: 10px;
-    background-color: #F5DEB3;
-    border: 5px solid #333333;
-  }
-  
-  .milestones-table th,
-  .milestones-table td {
-    padding: 15px; /* Increase padding for more spacing */
-    border: 2.5px solid #333333; /* Increase border width */
-    text-align: center;
-    background-color: #F5DEB3;
-    font-size: medium;
-  }
-  
-  .completed {
-    text-decoration: line-through; /* Apply strikethrough effect */
-  }
+  background-color: #f5deb3;
+  border: 5px solid #333333;
+  border-radius: 10px;
+}
+
+.milestones-header {
+  background-color: #f5deb3;
+  margin: 10px;
+  border-bottom: 1px solid #333333;
+}
+
+.milestones-header-h3 {
+  color: #333333;
+  text-align: center;
+}
+
+.milestones-table {
+  margin: 10px;
+  background-color: #f5deb3;
+  border: 5px solid #333333;
+}
+
+.milestones-table th,
+.milestones-table td {
+  padding: 15px; /* Increased padding for better spacing */
+  border: 2.5px solid #333333;
+  text-align: center;
+  background-color: #f5deb3;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through; /* Apply strikethrough effect */
+}

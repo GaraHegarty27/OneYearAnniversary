@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/OneYearAnniversary/static/css/main.04a13e16.css",
-    "main.js": "/OneYearAnniversary/static/js/main.bc0eddba.js",
+    "main.css": "/OneYearAnniversary/static/css/main.3d874791.css",
+    "main.js": "/OneYearAnniversary/static/js/main.e1256536.js",
     "static/js/453.d1c1b62f.chunk.js": "/OneYearAnniversary/static/js/453.d1c1b62f.chunk.js",
     "static/media/2.jpg": "/OneYearAnniversary/static/media/2.645d434f6aa8c86a6177.jpg",
-    "static/media/1.jpg": "/OneYearAnniversary/static/media/1.2baaaaa69beedf55c232.jpg",
     "static/media/Snapchat-1019426491.jpg": "/OneYearAnniversary/static/media/Snapchat-1019426491.13990a9d613e0563d82a.jpg",
     "static/media/Snapchat-75557653.jpg": "/OneYearAnniversary/static/media/Snapchat-75557653.cca448d8eb6c3f0af6d4.jpg",
     "static/media/Snapchat-1571831068.jpg": "/OneYearAnniversary/static/media/Snapchat-1571831068.4ea8dc3fd2ab4b3b9fc8.jpg",
@@ -44,7 +43,6 @@
     "static/media/Snapchat-84560581.jpg": "/OneYearAnniversary/static/media/Snapchat-84560581.9d0042f7be50fd6428eb.jpg",
     "static/media/Snapchat-1784115148.jpg": "/OneYearAnniversary/static/media/Snapchat-1784115148.85a33edc9da6948b4119.jpg",
     "static/media/Snapchat-83657572.jpg": "/OneYearAnniversary/static/media/Snapchat-83657572.c6047185f8dcfd27f0a5.jpg",
-    "static/media/Snapchat-1441279669.jpg": "/OneYearAnniversary/static/media/Snapchat-1441279669.ff98bdd0f5404ad5f12a.jpg",
     "static/media/Snapchat-955143147.jpg": "/OneYearAnniversary/static/media/Snapchat-955143147.c20b21ea3a8cb69f01ce.jpg",
     "static/media/Snapchat-2001147345.jpg": "/OneYearAnniversary/static/media/Snapchat-2001147345.be323f338a6742110442.jpg",
     "static/media/Snapchat-1467694535.jpg": "/OneYearAnniversary/static/media/Snapchat-1467694535.dabbc438dc3c48aacbb4.jpg",
@@ -61,9 +59,11 @@
     "static/media/Screenshot_20240521_093935_Snapchat.jpg": "/OneYearAnniversary/static/media/Screenshot_20240521_093935_Snapchat.a8e36aeae29839befde6.jpg",
     "static/media/Screenshot_20240711_124555_Instagram.jpg": "/OneYearAnniversary/static/media/Screenshot_20240711_124555_Instagram.af52c8432145bc151596.jpg",
     "static/media/Snapchat-127333996.jpg": "/OneYearAnniversary/static/media/Snapchat-127333996.34a0dd03df3aa9aa54dd.jpg",
+    "static/media/Screenshot_20250209_160726_WhatsApp.jpg": "/OneYearAnniversary/static/media/Screenshot_20250209_160726_WhatsApp.8761ad18800e3730b176.jpg",
     "static/media/Screenshot_20240711_124548_Instagram.jpg": "/OneYearAnniversary/static/media/Screenshot_20240711_124548_Instagram.60d92c8c4b7e041953ae.jpg",
     "static/media/Screenshot_20240711_125146_Instagram.jpg": "/OneYearAnniversary/static/media/Screenshot_20240711_125146_Instagram.19f2e1c7a7ebd29d4973.jpg",
     "static/media/Screenshot_20240711_124120_Instagram.jpg": "/OneYearAnniversary/static/media/Screenshot_20240711_124120_Instagram.b860331b5d0ddee331ee.jpg",
+    "static/media/Screenshot_20250209_160705_WhatsApp.jpg": "/OneYearAnniversary/static/media/Screenshot_20250209_160705_WhatsApp.1f8d3ac8403da86d67c8.jpg",
     "static/media/Screenshot_20240712_132708_Snapchat.jpg": "/OneYearAnniversary/static/media/Screenshot_20240712_132708_Snapchat.6a4edc685d22f8a939e9.jpg",
     "static/media/Screenshot_20240711_124449_Instagram.jpg": "/OneYearAnniversary/static/media/Screenshot_20240711_124449_Instagram.4add5e76386c6110ed27.jpg",
     "static/media/Snapchat-633076299.jpg": "/OneYearAnniversary/static/media/Snapchat-633076299.56935d5b831592e0d8ea.jpg",
@@ -104,12 +104,12 @@
     "static/media/Snapchat-1059933226.jpg": "/OneYearAnniversary/static/media/Snapchat-1059933226.6908120e3693d454f9f5.jpg",
     "static/media/Snapchat-1474437049.jpg": "/OneYearAnniversary/static/media/Snapchat-1474437049.a44e2a9cd9088844430d.jpg",
     "index.html": "/OneYearAnniversary/index.html",
-    "main.04a13e16.css.map": "/OneYearAnniversary/static/css/main.04a13e16.css.map",
-    "main.bc0eddba.js.map": "/OneYearAnniversary/static/js/main.bc0eddba.js.map",
+    "main.3d874791.css.map": "/OneYearAnniversary/static/css/main.3d874791.css.map",
+    "main.e1256536.js.map": "/OneYearAnniversary/static/js/main.e1256536.js.map",
     "453.d1c1b62f.chunk.js.map": "/OneYearAnniversary/static/js/453.d1c1b62f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a13e16.css",
-    "static/js/main.bc0eddba.js"
+    "static/css/main.3d874791.css",
+    "static/js/main.e1256536.js"
   ]
 }

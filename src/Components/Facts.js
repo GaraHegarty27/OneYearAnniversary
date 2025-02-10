@@ -22,11 +22,10 @@ function Facts() {
   const factsData = [
     { text: `Gara is 202 days older than Manya.` },
     { text: `We went on our first date on the 4th of February 2024 which was ${firstDateDaysAgo} days ago in which Manya wouldn't book Orto so we had to go to Nandos (Silly Bitch).` },
-    { text: `We have been officially together since the 3rd of March 2024 which was ${relationshipDateDaysAgo} days ago.` },
     { text: `We were born 4,363 miles apart.` },
     { text: `We grew up exactly 4437.212 miles apart (from building to building).` },
     { text: `Dino, Manyapoo, Small Bean, Missus, Darling and Gorgeous = Manya.` },
-    { text: `As of writing this at 3:42 pm on the 17th of January 2025 we have told each other we love each other 5448 times on Whatsapp.` },
+    { text: `As of writing this at 3:42 pm on the 10th of February 2025 we have told each other we love each other 5604 times on Whatsapp.` },
     { text: `We have been officially together since the 3rd of March 2024 which was ${relationshipDateDaysAgo} days ago.` },
   ];
 

@@ -1,7 +1,7 @@
 :root {
-   --primary-color: #B22222;
+   --primary-color: #87CEEB ;
    --secondary-color: #333333;
-   --text-color: #F5DEB3;
+   --text-color: #E6E6FA ;
  }
  
  /* Ensuring correct styles for the card */
@@ -15,18 +15,18 @@
  
  /* Title Styling */
  .title {
-   -webkit-text-stroke: 1.5px var(--secondary-color);
-   color: var(--text-color);
+   color: #FFFFFF  ;
    text-align: center;
    padding-top: 20px;
  }
  
- /* Navigation Bar */
- .nav-bar {
-   background-color: var(--secondary-color);
+/* Navigation Bar */
+.nav-bar {
+   background-color: var(--secondary-color); /* Set the background color */
    padding: 4px;
- }
- 
+   width: 100%; /* Ensure navbar takes up full width */
+}
+
  /* Navigation Links */
  .nav-link-display {
    border: 2px solid var(--secondary-color);

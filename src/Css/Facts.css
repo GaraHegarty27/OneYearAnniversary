@@ -1,18 +1,18 @@
 .facts-card {
-   background-color: #F5DEB3;
+   background-color: #87CEEB;
    border: 5px solid #333333;
    border-radius: 10px;
  }
  
  .facts-header {
    margin: 10px;
-   background-color: #F5DEB3;
+   background-color: #87CEEB;
    border-color: #333333;
  }
  
  .facts-table {
    margin: 10px;
-   background-color: #F5DEB3;
+   background-color: #87CEEB;
    border: 5px solid #333333;
  }
  
@@ -23,7 +23,7 @@
  
  /* Table row with background color */
  .facts-table tr {
-   background-color: #F5DEB3;
+   background-color: #87CEEB;
    color: #333333;
    padding: 15px;
    border: 2.5px solid #333333;
@@ -34,7 +34,7 @@
    padding: 15px;
    border: 2.5px solid #333333;
    color: #333333;
-   background-color: #F5DEB3;
+   background-color: #87CEEB;
    text-align: center;
    font-size: 1.1rem;
    font-weight: 600; /* Make the writing a bit thicker */

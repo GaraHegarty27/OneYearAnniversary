@@ -7,3 +7,7 @@
   display: block; /* Ensure the image is displayed as a block element */
   margin: 0 auto; /* Center the image horizontally */
  }
+
+ p{
+  color: #333333;
+ }

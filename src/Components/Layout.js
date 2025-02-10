@@ -25,7 +25,9 @@ const Layout = () => {
                 <thead>
                   <tr>
                     {navLinks.map(({ to, label }) => (
-                      <th key={to} className="nav-link-display">
+                      <th key={to} className="nav-link-display" 
+                      style = {{backgroundColor: "#E6E6FA"}}
+                      >
                         <NavLink to={to} className={({ isActive }) =>
                             `nav-link-text ${isActive ? "active" : ""}`
                           }>

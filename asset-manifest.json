@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OneYearAnniversary/static/css/main.3d874791.css",
-    "main.js": "/OneYearAnniversary/static/js/main.e1256536.js",
+    "main.css": "/OneYearAnniversary/static/css/main.d013cfa4.css",
+    "main.js": "/OneYearAnniversary/static/js/main.1ce3a1f8.js",
     "static/js/453.d1c1b62f.chunk.js": "/OneYearAnniversary/static/js/453.d1c1b62f.chunk.js",
     "static/media/2.jpg": "/OneYearAnniversary/static/media/2.645d434f6aa8c86a6177.jpg",
     "static/media/Snapchat-1019426491.jpg": "/OneYearAnniversary/static/media/Snapchat-1019426491.13990a9d613e0563d82a.jpg",
@@ -104,12 +104,12 @@
     "static/media/Snapchat-1059933226.jpg": "/OneYearAnniversary/static/media/Snapchat-1059933226.6908120e3693d454f9f5.jpg",
     "static/media/Snapchat-1474437049.jpg": "/OneYearAnniversary/static/media/Snapchat-1474437049.a44e2a9cd9088844430d.jpg",
     "index.html": "/OneYearAnniversary/index.html",
-    "main.3d874791.css.map": "/OneYearAnniversary/static/css/main.3d874791.css.map",
-    "main.e1256536.js.map": "/OneYearAnniversary/static/js/main.e1256536.js.map",
+    "main.d013cfa4.css.map": "/OneYearAnniversary/static/css/main.d013cfa4.css.map",
+    "main.1ce3a1f8.js.map": "/OneYearAnniversary/static/js/main.1ce3a1f8.js.map",
     "453.d1c1b62f.chunk.js.map": "/OneYearAnniversary/static/js/453.d1c1b62f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d874791.css",
-    "static/js/main.e1256536.js"
+    "static/css/main.d013cfa4.css",
+    "static/js/main.1ce3a1f8.js"
   ]
 }
